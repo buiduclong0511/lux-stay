@@ -1,0 +1,192 @@
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+  #btn-open-nav {
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    right: 20px; }
+  #check-layout {
+    position: absolute;
+    width: 120vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9;
+    top: 0;
+    left: 0; }
+  .header__menu {
+    display: none; }
+  .header__menu-tablet {
+    display: block;
+    z-index: 10;
+    background-color: #fff;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    transition: 0.25s;
+    transform: translateX(-100%); }
+  .header__menu-tablet ul {
+    list-style: none;
+    margin-top: 50px; }
+  .header__menu-tablet ul li {
+    height: 40px;
+    line-height: 40px; }
+  .header__menu-tablet ul li a {
+    text-decoration: none;
+    color: #000000;
+    margin-left: 20px; }
+  .header__menu-tablet ul li button {
+    margin-left: 20px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    margin-top: 15px; }
+  .header__menu-tablet ul li button span {
+    margin-left: -160px; }
+  .header__menu-tablet ul li button i {
+    margin-right: 10px; }
+  .header__menu-tablet ul li button img {
+    width: 24px;
+    height: 24px;
+    margin: 5px; }
+  #btn-close-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px; }
+  #check:checked ~ .header__menu-tablet {
+    transform: translateX(0); }
+  #check:checked ~ #check-layout {
+    display: block; }
+  .form-register__container {
+    order: -1; }
+  .wellcome__title,
+  .wellcome__sub-title {
+    margin: 0; }
+  .form-register {
+    margin-top: -2.025rem;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .list-medias {
+    margin-left: 20px;
+    margin-right: 20px; }
+  .phone-number {
+    flex: 5; } }
+
+@media screen and (min-width: 1024px) and (max-width: 1113px) {
+  .wellcome__title,
+  .wellcome__sub-title {
+    margin: 0;
+    width: 60%; }
+  .wellcome__title {
+    line-height: 2.5rem; }
+  .wellcome__sub-title {
+    margin-top: 20px; }
+  .form-register {
+    margin-right: 20px; }
+  .list-medias {
+    margin-left: 20px; } }
+
+@media screen and (max-width: 740px) {
+  .header__menu {
+    display: none; }
+  .list-medias__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .list-medias__item .media__content {
+      text-align: center; }
+  #btn-open-nav {
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    right: 20px; }
+  #check-layout {
+    position: absolute;
+    width: 120vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9;
+    top: 0;
+    left: 0; }
+  .header__menu-tablet {
+    display: block;
+    z-index: 10;
+    background-color: #fff;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    transition: 0.25s;
+    transform: translateX(-100%); }
+  .header__menu-tablet ul {
+    list-style: none;
+    margin-top: 50px; }
+  .header__menu-tablet ul li {
+    height: 40px;
+    line-height: 40px; }
+  .header__menu-tablet ul li a {
+    text-decoration: none;
+    color: #000000;
+    margin-left: 20px; }
+  .header__menu-tablet ul li button {
+    margin-left: 20px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    margin-top: 15px; }
+  .header__menu-tablet ul li button span {
+    margin-left: -200px; }
+  .header__menu-tablet ul li button i {
+    margin-right: 10px; }
+  .header__menu-tablet ul li button img {
+    width: 24px;
+    height: 24px;
+    margin: 5px; }
+  #btn-close-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px; }
+  #check:checked ~ .header__menu-tablet {
+    transform: translateX(0); }
+  #check:checked ~ #check-layout {
+    display: block; }
+  .wellcome__title,
+  .wellcome__sub-title {
+    margin: 0;
+    font-size: 1.25rem;
+    padding: 0; }
+  .wellcome {
+    padding: 20px 20px 60px 20px; }
+  .wellcome__sub-title {
+    font-size: 0.95rem;
+    margin-top: 20px; }
+  .form-register__container {
+    order: -1; }
+  .form-register {
+    margin: -1.875rem 20px 0 20px; }
+  .list-medias {
+    margin: 0 20px; }
+  .footer {
+    font-size: 0.975rem;
+    line-height: 1.5; } }

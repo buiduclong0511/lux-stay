@@ -1,0 +1,23 @@
+@media screen and (min-width: 1025px) {
+  .container .content {
+    margin: 0 111.6px; }
+  .container .coupon-wrap .coupon {
+    padding: 14px 44px 20px 44px;
+    flex-basis: 33.3333%; } }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container .content {
+    margin: 0 20px; }
+  .container .coupon-wrap .coupon {
+    padding: 14px 44px 20px 44px;
+    flex-basis: 50%; } }
+
+@media screen and (min-width: 740px) and (max-width: 768px) {
+  .container .coupon-wrap .coupon {
+    padding: 14px 12px 20px;
+    flex-basis: 60%; } }
+
+@media screen and (max-width: 739px) {
+  .container .coupon-wrap .coupon {
+    padding: 14px 12px 20px;
+    flex-basis: 100%; } }

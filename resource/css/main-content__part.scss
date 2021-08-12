@@ -1,0 +1,101 @@
+.main-content__part {
+    margin-top: 42px;
+}
+
+.part__title {
+    font-size: 1.75rem;
+    margin-bottom: 11px;
+}
+
+.part__sub-title {
+    line-height: 33px;
+}
+
+.part__sub-title a {
+    color: inherit;
+    transition: all 0.25s ease 0s;
+}
+
+.part__sub-title a:hover {
+    color: rgb(251, 146, 54);
+}
+
+.main-content__location {
+    position: relative;
+    margin-top: 20px;
+    cursor: pointer;
+    padding-top: 125%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &--hn {
+        background-image: url("../img/hanoi.png");
+    }
+    &--hcm {
+        background-image: url("../img/hcm.png");
+    }
+    &--vt {
+        background-image: url("../img/vungtau.png");
+    }
+    &--dl {
+        background-image: url("../img/dalat.png");
+    }
+    &--dn {
+        background-image: url("../img/danang.png");
+    }
+}
+
+.location__infor {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+}
+
+.location__name {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.location__number {
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+.location__number span {
+    font-weight: bold;
+}
+
+.main-content__slider {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.slider__btn-pre,
+.slider__btn-next {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    box-shadow: rgb(0, 0, 0) 0px 0px 7px -4px;
+    cursor: pointer;
+}
+
+.slider__btn-pre {
+    left: -2.5%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.5;
+}
+
+.slider__btn-next {
+    right: -2.5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
